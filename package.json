@@ -1,0 +1,13 @@
+{
+  "name": "rqa-key-rotator",
+  "version": "1.0.0",
+  "description": "Rotates data keys for the export service.",
+  "private": true,
+  "main": "src/rotate.js",
+  "engines": { "node": "20.18.0" },
+  "scripts": {
+    "start": "node src/rotate.js",
+    "test": "node --test"
+  },
+  "dependencies": { "@aws-sdk/client-kms": "3.1151.0" }
+}
